@@ -1,8 +1,8 @@
 #top{
     width: 800px;
     background-color: #dcc9f4;
-    padding: 20px auto;
-    margin: 0 auto; /* 中央に配置　*/
+    padding: 20px 0;
+    margin: 20px auto; /* 中央に配置　*/
     display: flex;
     justify-content: center;
 }
