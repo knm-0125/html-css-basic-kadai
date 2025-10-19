@@ -19,15 +19,13 @@ main {
     padding-bottom: 10px;
 }
 
-#parent0 {
+#parent {
     display: flex;
     justify-content: space-around;
 }
 
 .contents {
-    flex-basis: 25%;
-    margin: 10px;
-    padding: 15px;
+    margin: 20px 0;
 }
 
 h2 {
@@ -58,7 +56,7 @@ footer a:visited {
     color: rgb(193, 234, 251);
 }
 
-footer a hover {
+footer a:hover {
     color: rgb(245, 178, 168);
 
 }
@@ -71,7 +69,7 @@ footer a hover {
         font-size: 25px;
     }
     #parent0 {
-        flex-direction: colum;
+        flex-direction: column;
     }
 }
 .contents img {
@@ -82,7 +80,6 @@ footer a hover {
 
 header h1 {
     color: rgb(255, 255, 255);
-    line-height: 200px;
     font-size: 35px;
 }
 
@@ -92,5 +89,5 @@ header h1 {
 
 .contents p:nth-of-type(2)::first-letter {
     color: rgb(97, 206, 249);
-    font-weight: bpld;
+    font-weight: bold;
 }
