@@ -68,7 +68,7 @@ footer a:hover {
     p {
         font-size: 25px;
     }
-    #parent0 {
+    #parent {
         flex-direction: column;
     }
 }
